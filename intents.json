@@ -555,7 +555,1758 @@
     "Sure! Here's a workout for you.",
     "Let's get moving! Here's a routine."
   ]
+},
+{
+  "tag": "health_checkup",
+  "patterns": [
+    "book my doctor appointment",
+    "schedule doctor visit",
+    "doctor appointment today",
+    "remind me about doctor visit",
+    "I have a hospital appointment",
+    "fix doctor appointment",
+    "I need to see my doctor",
+    "book hospital appointment",
+    "schedule my health check",
+    "remind me for health checkup"
+  ],
+  "responses": [
+    "Your doctor visit reminder has been set.",
+    "I’ll remind you about your appointment."
+  ]
+},
+
+{
+  "tag": "blood_pressure_check",
+  "patterns": [
+    "check my blood pressure",
+    "record my BP",
+    "log blood pressure",
+    "my BP reading",
+    "BP monitor",
+    "measure blood pressure",
+    "show previous BP readings",
+    "remind me to check BP"
+  ],
+  "responses": [
+    "Time to check your blood pressure.",
+    "BP reminder set."
+  ]
+},
+
+{
+  "tag": "sugar_level_check",
+  "patterns": [
+    "check sugar level",
+    "blood sugar reading",
+    "measure glucose",
+    "record sugar level",
+    "sugar test",
+    "check my glucose",
+    "when to check sugar",
+    "remind me for sugar test"
+  ],
+  "responses": [
+    "Sure, I’ll remind you to check your sugar level.",
+    "Sugar test reminder set."
+  ]
+},
+
+{
+  "tag": "take_water_reminder",
+  "patterns": [
+    "remind me to drink water",
+    "water reminder",
+    "tell me to drink water",
+    "I forget to drink water",
+    "set water reminder",
+    "every hour water alert"
+  ],
+  "responses": [
+    "I’ll remind you to drink water regularly.",
+    "Water reminder has been set."
+  ]
+},
+
+{
+  "tag": "meal_reminder",
+  "patterns": [
+    "remind me to eat breakfast",
+    "breakfast time",
+    "remind me for lunch",
+    "lunch time reminder",
+    "dinner time",
+    "alert me for meals",
+    "set meal reminder",
+    "notify me to eat food"
+  ],
+  "responses": [
+    "Meal reminder set successfully.",
+    "I’ll alert you at your meal times."
+  ]
+},
+
+{
+  "tag": "weather_update",
+  "patterns": [
+    "what's the weather today",
+    "today weather",
+    "weather report",
+    "is it raining",
+    "how hot is it outside",
+    "temperature today",
+    "should I take umbrella",
+    "weather forecast"
+  ],
+  "responses": [
+    "Let me check today’s weather for you.",
+    "Here’s your local weather update."
+  ]
+},
+
+{
+  "tag": "news_update",
+  "patterns": [
+    "today news",
+    "latest headlines",
+    "show me the news",
+    "what’s in the news today",
+    "morning news please",
+    "play tamil news",
+    "open news channel",
+    "today’s newspaper"
+  ],
+  "responses": [
+    "Opening today’s top news.",
+    "Here are the latest updates."
+  ]
+},
+
+{
+  "tag": "devotional_prayer",
+  "patterns": [
+    "play morning prayer",
+    "start devotional song",
+    "play bhajan",
+    "open temple song",
+    "devotional music please",
+    "start my prayer time",
+    "play evening aarti",
+    "om chanting please",
+    "start my daily puja"
+  ],
+  "responses": [
+    "Playing your devotional music.",
+    "Starting your prayer time playlist."
+  ]
+},
+
+{
+  "tag": "spiritual_quotes",
+  "patterns": [
+    "say something spiritual",
+    "give me a god quote",
+    "spiritual quote",
+    "devotional thought",
+    "share a divine message"
+  ],
+  "responses": [
+    "Faith makes everything possible. Trust in God always.",
+    "Where there is devotion, there is peace.",
+    "Let your heart be still — God is near."
+  ]
+},
+
+{
+  "tag": "open_whatsapp",
+  "patterns": [
+    "open whatsapp",
+    "launch whatsapp",
+    "start whatsapp",
+    "open my chats",
+    "check whatsapp messages"
+  ],
+  "responses": [
+    "Opening WhatsApp for you."
+  ]
+},
+
+{
+  "tag": "read_messages",
+  "patterns": [
+    "read my messages",
+    "check new messages",
+    "read latest message",
+    "any new chats",
+    "what messages do I have"
+  ],
+  "responses": [
+    "Here are your latest messages."
+  ]
+},
+
+{
+  "tag": "send_message",
+  "patterns": [
+    "send message to my son",
+    "text my daughter",
+    "message to Ravi",
+    "send a message",
+    "can you send text",
+    "send whatsapp to Sita",
+    "message my friend"
+  ],
+  "responses": [
+    "Sure, what would you like me to send?"
+  ]
+},
+
+{
+  "tag": "remind_doctor_medicine",
+  "patterns": [
+    "doctor told to take medicine",
+    "doctor advice reminder",
+    "remind me what doctor said",
+    "note doctor instruction",
+    "record doctor notes"
+  ],
+  "responses": [
+    "Doctor reminder saved.",
+    "I’ll remind you about your doctor’s advice."
+  ]
+},
+
+{
+  "tag": "family_message",
+  "patterns": [
+    "send message to family",
+    "tell my son I’m okay",
+    "message my daughter good morning",
+    "say I reached safely",
+    "text my grandson I love him"
+  ],
+  "responses": [
+    "Sending your message to family."
+  ]
+},
+
+{
+  "tag": "read_news_aloud",
+  "patterns": [
+    "read today’s news",
+    "speak the headlines",
+    "read me the news",
+    "news reading mode"
+  ],
+  "responses": [
+    "Reading today’s top stories aloud."
+  ]
+},
+
+{
+  "tag": "play_radio",
+  "patterns": [
+    "play radio",
+    "start fm",
+    "launch radio",
+    "radio please",
+    "tune to fm",
+    "play tamil fm",
+    "radio songs"
+  ],
+  "responses": [
+    "Playing your radio station."
+  ]
+},
+
+{
+  "tag": "weather_alert",
+  "patterns": [
+    "alert me when it rains",
+    "rain reminder",
+    "notify for rain",
+    "let me know when it’s hot"
+  ],
+  "responses": [
+    "I’ll notify you about rain or heat alerts."
+  ]
+},
+
+{
+  "tag": "appointment_list",
+  "patterns": [
+    "show my appointments",
+    "list upcoming visits",
+    "doctor visits today",
+    "who am I meeting today",
+    "check schedule"
+  ],
+  "responses": [
+    "Here’s your appointment list."
+  ]
+},
+
+{
+  "tag": "battery_status",
+  "patterns": [
+    "check battery",
+    "battery percentage",
+    "how much charge left",
+    "battery status",
+    "show laptop charge"
+  ],
+  "responses": [
+    "Checking your system battery."
+  ]
+},
+
+{
+  "tag": "greet_user",
+  "patterns": [
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "hello",
+    "hi there"
+  ],
+  "responses": [
+    "Good day to you!",
+    "Hello! How are you today?"
+  ]
+},
+
+{
+  "tag": "good_night",
+  "patterns": [
+    "good night",
+    "time to sleep",
+    "I’m going to bed",
+    "sleep time"
+  ],
+  "responses": [
+    "Good night! Sleep well and sweet dreams."
+  ]
+},
+
+{
+  "tag": "exercise_reminder",
+  "patterns": [
+    "remind me to walk",
+    "morning walk reminder",
+    "evening walk",
+    "remind me for exercise",
+    "walk time"
+  ],
+  "responses": [
+    "Exercise reminder set!"
+  ]
+},
+
+{
+  "tag": "simple_conversation",
+  "patterns": [
+    "how are you",
+    "what are you doing",
+    "talk to me",
+    "I feel bored",
+    "I’m lonely",
+    "can we chat",
+    "say something"
+  ],
+  "responses": [
+    "I’m here to chat with you!",
+    "I’m always happy to talk to you."
+  ]
 }
+,
+{
+  "tag": "greet_morning",
+  "patterns": [
+    "good morning assistant",
+    "morning wishes",
+    "morning greeting",
+    "say good morning",
+    "wish me good morning"
+  ],
+  "responses": [
+    "Good morning! Hope you have a pleasant and healthy day ahead."
+  ]
+},
+
+{
+  "tag": "greet_evening",
+  "patterns": [
+    "good evening assistant",
+    "evening wishes",
+    "say good evening",
+    "wish me evening"
+  ],
+  "responses": [
+    "Good evening! Hope your day was wonderful."
+  ]
+},
+
+{
+  "tag": "health_tip",
+  "patterns": [
+    "give me a health tip",
+    "daily health advice",
+    "say something healthy",
+    "health tip please",
+    "how to stay healthy"
+  ],
+  "responses": [
+    "Drink plenty of water and take short walks daily for good health.",
+    "A little stretching every morning keeps your joints active."
+  ]
+},
+
+{
+  "tag": "diet_tip",
+  "patterns": [
+    "give me diet tip",
+    "food tip for health",
+    "what should I eat",
+    "healthy diet idea",
+    "what’s good for my age",
+    "good food for old age"
+  ],
+  "responses": [
+    "Include more fruits, vegetables, and nuts in your diet.",
+    "Avoid too much sugar and fried foods for better energy."
+  ]
+},
+
+{
+  "tag": "memory_exercise",
+  "patterns": [
+    "memory games",
+    "exercise for brain",
+    "improve memory",
+    "brain activities",
+    "keep my brain sharp"
+  ],
+  "responses": [
+    "Try reading daily or doing small puzzles to boost your memory.",
+    "Let’s do a simple memory game together soon!"
+  ]
+},
+
+{
+  "tag": "play_relax_music",
+  "patterns": [
+    "play relaxing music",
+    "soft music please",
+    "relaxation songs",
+    "calm background music",
+    "soothing tunes"
+  ],
+  "responses": [
+    "Playing peaceful background music now.",
+    "Relax and enjoy this soft melody."
+  ]
+},
+
+{
+  "tag": "morning_routine",
+  "patterns": [
+    "remind me my morning routine",
+    "what should I do in the morning",
+    "my daily morning tasks",
+    "start my day",
+    "morning checklist"
+  ],
+  "responses": [
+    "Your morning routine: drink water, light walk, breakfast, and tablets."
+  ]
+},
+
+{
+  "tag": "evening_routine",
+  "patterns": [
+    "evening routine",
+    "my night tasks",
+    "bedtime checklist",
+    "things to do before sleep",
+    "prepare for night"
+  ],
+  "responses": [
+    "Time to relax, take your night medicine, and get ready for bed."
+  ]
+},
+
+{
+  "tag": "check_calendar",
+  "patterns": [
+    "check my calendar",
+    "show my schedule",
+    "any events today",
+    "my plans today",
+    "what’s on my calendar"
+  ],
+  "responses": [
+    "Here are your scheduled events for today."
+  ]
+},
+
+{
+  "tag": "add_calendar_event",
+  "patterns": [
+    "add event to calendar",
+    "add to my schedule",
+    "note this event",
+    "add birthday reminder",
+    "save appointment to calendar"
+  ],
+  "responses": [
+    "Event added to your calendar."
+  ]
+},
+
+{
+  "tag": "birthday_reminder",
+  "patterns": [
+    "remind me my daughter’s birthday",
+    "birthday alert",
+    "remind me of birthdays",
+    "whose birthday today",
+    "add birthday reminder"
+  ],
+  "responses": [
+    "I’ll remind you of upcoming birthdays."
+  ]
+},
+
+{
+  "tag": "send_birthday_wish",
+  "patterns": [
+    "send birthday wish to my son",
+    "wish happy birthday to Sita",
+    "say happy birthday to Ravi",
+    "send greetings"
+  ],
+  "responses": [
+    "Sending your birthday wishes now."
+  ]
+},
+
+{
+  "tag": "read_poem",
+  "patterns": [
+    "read me a poem",
+    "tell me a poem",
+    "say poetry",
+    "Tamil poem please",
+    "English poem"
+  ],
+  "responses": [
+    "Here’s a small poem to brighten your day."
+  ]
+},
+
+{
+  "tag": "tell_story",
+  "patterns": [
+    "tell me a story",
+    "say bedtime story",
+    "story time",
+    "I want a story",
+    "narrate story"
+  ],
+  "responses": [
+    "Sure! Let’s listen to a short moral story."
+  ]
+},
+
+{
+  "tag": "play_tamil_song",
+  "patterns": [
+    "play tamil song",
+    "tamil melody please",
+    "play old tamil songs",
+    "tamil classic music",
+    "Ilayaraja songs"
+  ],
+  "responses": [
+    "Playing your favorite Tamil classics."
+  ]
+},
+
+{
+  "tag": "play_devotional_speech",
+  "patterns": [
+    "play devotional speech",
+    "spiritual lecture",
+    "temple talk",
+    "listen to bhagavad gita",
+    "devotional discourses"
+  ],
+  "responses": [
+    "Starting your spiritual talk now."
+  ]
+},
+
+{
+  "tag": "remind_doctor_call",
+  "patterns": [
+    "remind me to call doctor",
+    "call doctor reminder",
+    "doctor follow up",
+    "remind me to check report"
+  ],
+  "responses": [
+    "Doctor call reminder added."
+  ]
+},
+
+{
+  "tag": "open_contacts",
+  "patterns": [
+    "open contacts",
+    "show my contact list",
+    "open phonebook",
+    "display contacts"
+  ],
+  "responses": [
+    "Here’s your contact list."
+  ]
+},
+
+{
+  "tag": "play_movie",
+  "patterns": [
+    "play a movie",
+    "movie time",
+    "open a film",
+    "watch movie",
+    "play old movie",
+    "start tamil film"
+  ],
+  "responses": [
+    "Opening your movie player."
+  ]
+},
+
+{
+  "tag": "open_camera",
+  "patterns": [
+    "open camera",
+    "take a photo",
+    "click picture",
+    "camera on",
+    "capture image"
+  ],
+  "responses": [
+    "Camera opened, ready to take pictures."
+  ]
+},
+
+{
+  "tag": "check_internet",
+  "patterns": [
+    "check internet connection",
+    "am I online",
+    "is wifi connected",
+    "internet status",
+    "wifi on or off"
+  ],
+  "responses": [
+    "Checking your internet connection."
+  ]
+},
+
+{
+  "tag": "increase_volume",
+  "patterns": [
+    "increase volume",
+    "volume up",
+    "turn it louder",
+    "make it louder"
+  ],
+  "responses": [
+    "Volume increased."
+  ]
+},
+
+{
+  "tag": "decrease_volume",
+  "patterns": [
+    "decrease volume",
+    "volume down",
+    "lower the sound",
+    "reduce volume"
+  ],
+  "responses": [
+    "Volume decreased."
+  ]
+},
+
+{
+  "tag": "mute_system",
+  "patterns": [
+    "mute the sound",
+    "mute system",
+    "turn off volume",
+    "no sound"
+  ],
+  "responses": [
+    "System muted."
+  ]
+},
+
+{
+  "tag": "unmute_system",
+  "patterns": [
+    "unmute",
+    "turn sound on",
+    "sound back on"
+  ],
+  "responses": [
+    "Sound turned back on."
+  ]
+},
+
+{
+  "tag": "joke_request",
+  "patterns": [
+    "tell me a joke",
+    "say something funny",
+    "make me laugh",
+    "joke please",
+    "funny story"
+  ],
+  "responses": [
+    "Here’s a little joke to make you smile!"
+  ]
+},
+
+{
+  "tag": "greet_festival",
+  "patterns": [
+    "happy diwali",
+    "merry christmas",
+    "happy pongal",
+    "new year wishes",
+    "festival greetings"
+  ],
+  "responses": [
+    "Happy festival! Wishing you joy and health."
+  ]
+},
+
+{
+  "tag": "send_voice_message",
+  "patterns": [
+    "send voice note",
+    "record a message",
+    "voice message to family",
+    "send audio to my son"
+  ],
+  "responses": [
+    "Recording and sending your voice message."
+  ]
+},
+
+{
+  "tag": "translate_text",
+  "patterns": [
+    "translate this",
+    "translate tamil to english",
+    "translate english to tamil",
+    "say in tamil",
+    "say in english"
+  ],
+  "responses": [
+    "Here’s your translated text."
+  ]
+},
+
+{
+  "tag": "check_day",
+  "patterns": [
+    "what day is today",
+    "today’s day name",
+    "which day is it"
+  ],
+  "responses": [
+    "Let me check today’s day for you."
+  ]
+},
+
+{
+  "tag": "greet_birthday",
+  "patterns": [
+    "it’s my birthday",
+    "today is my birthday",
+    "wish me happy birthday"
+  ],
+  "responses": [
+    "Happy Birthday! Wishing you health and happiness!"
+  ]
+},
+
+{
+  "tag": "thank_you",
+  "patterns": [
+    "thank you",
+    "thanks a lot",
+    "thanks assistant",
+    "thank you very much"
+  ],
+  "responses": [
+    "You’re most welcome!",
+    "Glad to help!"
+  ]
+},
+
+{
+  "tag": "goodbye",
+  "patterns": [
+    "goodbye",
+    "bye assistant",
+    "see you later",
+    "talk to you later"
+  ],
+  "responses": [
+    "Goodbye! Take care and see you soon."
+  ]
+},
+{
+  "tag": "turn_on_light",
+  "patterns": [
+    "turn on the light",
+    "switch on light",
+    "light on please",
+    "enable lights",
+    "room light on"
+  ],
+  "responses": [
+    "Turning on the lights now."
+  ]
+},
+
+{
+  "tag": "turn_off_light",
+  "patterns": [
+    "turn off the light",
+    "switch off light",
+    "light off please",
+    "disable lights",
+    "room light off"
+  ],
+  "responses": [
+    "Lights have been turned off."
+  ]
+},
+
+{
+  "tag": "fan_on",
+  "patterns": [
+    "turn on the fan",
+    "start the fan",
+    "switch on ceiling fan",
+    "fan please",
+    "enable fan"
+  ],
+  "responses": [
+    "Fan is now running."
+  ]
+},
+
+{
+  "tag": "fan_off",
+  "patterns": [
+    "turn off the fan",
+    "stop the fan",
+    "switch off ceiling fan",
+    "disable fan"
+  ],
+  "responses": [
+    "Fan turned off."
+  ]
+},
+
+{
+  "tag": "ac_on",
+  "patterns": [
+    "turn on the AC",
+    "start air conditioner",
+    "switch on AC",
+    "make it cool",
+    "cool the room"
+  ],
+  "responses": [
+    "Air conditioner turned on."
+  ]
+},
+
+{
+  "tag": "ac_off",
+  "patterns": [
+    "turn off the AC",
+    "stop air conditioner",
+    "switch off AC",
+    "AC off please"
+  ],
+  "responses": [
+    "AC has been turned off."
+  ]
+},
+
+{
+  "tag": "open_browser",
+  "patterns": [
+    "open browser",
+    "start chrome",
+    "open edge",
+    "launch firefox",
+    "open web browser"
+  ],
+  "responses": [
+    "Opening your browser."
+  ]
+},
+
+{
+  "tag": "open_youtube",
+  "patterns": [
+    "open youtube",
+    "play youtube video",
+    "start youtube",
+    "watch on youtube"
+  ],
+  "responses": [
+    "Opening YouTube for you."
+  ]
+},
+
+{
+  "tag": "open_google",
+  "patterns": [
+    "open google",
+    "launch google",
+    "search on google",
+    "google search"
+  ],
+  "responses": [
+    "Opening Google search."
+  ]
+},
+
+{
+  "tag": "open_whatsapp",
+  "patterns": [
+    "open whatsapp",
+    "start whatsapp",
+    "launch whatsapp app"
+  ],
+  "responses": [
+    "Opening WhatsApp."
+  ]
+},
+
+{
+  "tag": "open_gmail",
+  "patterns": [
+    "open gmail",
+    "check my mail",
+    "show my emails",
+    "launch gmail"
+  ],
+  "responses": [
+    "Opening Gmail."
+  ]
+},
+
+{
+  "tag": "check_weather",
+  "patterns": [
+    "check weather",
+    "what’s the weather today",
+    "show temperature",
+    "is it going to rain",
+    "weather forecast"
+  ],
+  "responses": [
+    "Here’s the weather update for today."
+  ]
+},
+
+{
+  "tag": "show_time",
+  "patterns": [
+    "what’s the time",
+    "tell me current time",
+    "time now",
+    "current hour",
+    "show clock"
+  ],
+  "responses": [
+    "The current time is displayed on your screen."
+  ]
+},
+
+{
+  "tag": "show_date",
+  "patterns": [
+    "what’s the date",
+    "today’s date please",
+    "current date",
+    "show today date"
+  ],
+  "responses": [
+    "Here’s today’s date."
+  ]
+},
+
+{
+  "tag": "take_screenshot",
+  "patterns": [
+    "take a screenshot",
+    "capture screen",
+    "save screen image",
+    "screenshot please"
+  ],
+  "responses": [
+    "Screenshot captured and saved."
+  ]
+},
+
+{
+  "tag": "open_calculator",
+  "patterns": [
+    "open calculator",
+    "start calculator",
+    "launch calculator app",
+    "I need to calculate"
+  ],
+  "responses": [
+    "Opening calculator."
+  ]
+},
+
+{
+  "tag": "open_notepad",
+  "patterns": [
+    "open notepad",
+    "start notepad",
+    "write note",
+    "take note"
+  ],
+  "responses": [
+    "Opening notepad for you."
+  ]
+},
+
+{
+  "tag": "create_note",
+  "patterns": [
+    "create a note",
+    "make new note",
+    "add note",
+    "write new note"
+  ],
+  "responses": [
+    "Creating a new note."
+  ]
+},
+
+{
+  "tag": "read_note",
+  "patterns": [
+    "read my note",
+    "open saved note",
+    "show notes",
+    "display my note"
+  ],
+  "responses": [
+    "Reading your saved notes."
+  ]
+},
+
+{
+  "tag": "delete_note",
+  "patterns": [
+    "delete note",
+    "remove saved note",
+    "clear note"
+  ],
+  "responses": [
+    "Note deleted successfully."
+  ]
+},
+
+{
+  "tag": "system_shutdown",
+  "patterns": [
+    "shutdown system",
+    "turn off my computer",
+    "power off laptop",
+    "shut down now"
+  ],
+  "responses": [
+    "System will shut down shortly."
+  ]
+},
+
+{
+  "tag": "system_restart",
+  "patterns": [
+    "restart computer",
+    "reboot system",
+    "restart my laptop"
+  ],
+  "responses": [
+    "Restarting your system."
+  ]
+},
+
+{
+  "tag": "system_lock",
+  "patterns": [
+    "lock my pc",
+    "lock computer",
+    "lock system now"
+  ],
+  "responses": [
+    "System locked."
+  ]
+},
+
+{
+  "tag": "open_file_explorer",
+  "patterns": [
+    "open file explorer",
+    "open my files",
+    "show my documents",
+    "browse folders"
+  ],
+  "responses": [
+    "Opening file explorer."
+  ]
+},
+
+{
+  "tag": "search_files",
+  "patterns": [
+    "search my files",
+    "find document",
+    "look for file named",
+    "locate file"
+  ],
+  "responses": [
+    "Searching your files."
+  ]
+},
+
+{
+  "tag": "battery_status",
+  "patterns": [
+    "check battery level",
+    "battery percentage",
+    "how much battery left",
+    "battery status"
+  ],
+  "responses": [
+    "Battery level is displayed on your screen."
+  ]
+},
+
+{
+  "tag": "connect_wifi",
+  "patterns": [
+    "connect to wifi",
+    "turn on wifi",
+    "enable wireless",
+    "join wifi network"
+  ],
+  "responses": [
+    "Connecting to Wi-Fi."
+  ]
+},
+
+{
+  "tag": "disconnect_wifi",
+  "patterns": [
+    "disconnect wifi",
+    "turn off wifi",
+    "disable wireless",
+    "leave wifi network"
+  ],
+  "responses": [
+    "Wi-Fi disconnected."
+  ]
+},
+
+{
+  "tag": "open_settings",
+  "patterns": [
+    "open settings",
+    "launch control panel",
+    "system settings",
+    "adjust settings"
+  ],
+  "responses": [
+    "Opening system settings."
+  ]
+},
+
+{
+  "tag": "change_wallpaper",
+  "patterns": [
+    "change wallpaper",
+    "set new background",
+    "change desktop background"
+  ],
+  "responses": [
+    "Changing your wallpaper."
+  ]
+},
+
+{
+  "tag": "increase_brightness",
+  "patterns": [
+    "increase brightness",
+    "make screen brighter",
+    "brighten display"
+  ],
+  "responses": [
+    "Screen brightness increased."
+  ]
+},
+
+{
+  "tag": "decrease_brightness",
+  "patterns": [
+    "reduce brightness",
+    "make screen dimmer",
+    "darken display"
+  ],
+  "responses": [
+    "Screen brightness decreased."
+  ]
+},
+
+{
+  "tag": "system_sleep",
+  "patterns": [
+    "put system to sleep",
+    "sleep mode",
+    "sleep now"
+  ],
+  "responses": [
+    "System entering sleep mode."
+  ]
+},
+
+{
+  "tag": "open_recycle_bin",
+  "patterns": [
+    "open recycle bin",
+    "show deleted files",
+    "trash bin"
+  ],
+  "responses": [
+    "Opening recycle bin."
+  ]
+},
+
+{
+  "tag": "empty_recycle_bin",
+  "patterns": [
+    "empty recycle bin",
+    "clear trash",
+    "delete all from bin"
+  ],
+  "responses": [
+    "Recycle bin cleared."
+  ]
+},
+
+{
+  "tag": "open_control_panel",
+  "patterns": [
+    "open control panel",
+    "launch system panel",
+    "settings control"
+  ],
+  "responses": [
+    "Opening control panel."
+  ]
+},
+
+{
+  "tag": "open_task_manager",
+  "patterns": [
+    "open task manager",
+    "see running apps",
+    "show processes"
+  ],
+  "responses": [
+    "Opening task manager."
+  ]
+},
+
+{
+  "tag": "check_cpu_usage",
+  "patterns": [
+    "check cpu usage",
+    "cpu load",
+    "processor performance"
+  ],
+  "responses": [
+    "Showing CPU usage details."
+  ]
+},
+
+{
+  "tag": "open_command_prompt",
+  "patterns": [
+    "open command prompt",
+    "open cmd",
+    "launch terminal"
+  ],
+  "responses": [
+    "Opening command prompt."
+  ]
+},
+
+{
+  "tag": "open_paint",
+  "patterns": [
+    "open paint",
+    "launch paint app",
+    "start ms paint"
+  ],
+  "responses": [
+    "Opening Paint application."
+  ]
+},
+
+{
+  "tag": "open_snipping_tool",
+  "patterns": [
+    "open snipping tool",
+    "take snip",
+    "capture portion of screen"
+  ],
+  "responses": [
+    "Opening Snipping Tool."
+  ]
+},
+
+{
+  "tag": "open_camera_app",
+  "patterns": [
+    "open camera app",
+    "start webcam",
+    "launch camera"
+  ],
+  "responses": [
+    "Camera app is now open."
+  ]
+},
+
+{
+  "tag": "open_ms_word",
+  "patterns": [
+    "open microsoft word",
+    "launch word",
+    "start ms word",
+    "create document"
+  ],
+  "responses": [
+    "Opening Microsoft Word."
+  ]
+},
+
+{
+  "tag": "open_excel",
+  "patterns": [
+    "open excel",
+    "start spreadsheet",
+    "launch ms excel"
+  ],
+  "responses": [
+    "Opening Excel."
+  ]
+},
+
+{
+  "tag": "open_powerpoint",
+  "patterns": [
+    "open powerpoint",
+    "launch slides",
+    "start ms powerpoint"
+  ],
+  "responses": [
+    "Opening PowerPoint."
+  ]
+},{
+  "tag": "how_are_you",
+  "patterns": [
+    "how are you",
+    "how are you doing",
+    "how’s everything",
+    "are you fine"
+  ],
+  "responses": [
+    "I’m doing great, thank you for asking!",
+    "I’m good and ready to help you."
+  ]
+},
+
+{
+  "tag": "user_feeling_good",
+  "patterns": [
+    "I’m happy today",
+    "feeling great",
+    "I’m in a good mood",
+    "so cheerful today"
+  ],
+  "responses": [
+    "That’s wonderful! Keep smiling always!",
+    "I love hearing that you’re happy."
+  ]
+},
+
+{
+  "tag": "user_feeling_sad",
+  "patterns": [
+    "I’m sad",
+    "feeling low",
+    "I’m upset",
+    "feeling down"
+  ],
+  "responses": [
+    "I’m here for you. Want to talk about it?",
+    "It’s okay to feel sad sometimes — everything will get better."
+  ]
+},
+
+{
+  "tag": "motivate_me",
+  "patterns": [
+    "motivate me",
+    "say something inspiring",
+    "give me motivation",
+    "I need encouragement"
+  ],
+  "responses": [
+    "Every small step counts, Swetha! Keep moving forward.",
+    "You’re stronger than you think — don’t stop now."
+  ]
+},
+
+{
+  "tag": "daily_quote",
+  "patterns": [
+    "daily quote",
+    "today’s quote",
+    "give me a quote",
+    "quote of the day"
+  ],
+  "responses": [
+    "‘Believe you can and you’re halfway there.’ – T. Roosevelt",
+    "‘Success is the sum of small efforts repeated daily.’"
+  ]
+},
+
+{
+  "tag": "tell_funny_story",
+  "patterns": [
+    "tell funny story",
+    "make me laugh",
+    "say something funny",
+    "funny conversation"
+  ],
+  "responses": [
+    "Once a computer caught a cold — it had too many cookies!",
+    "Why did the laptop sleep? It needed to rest its bytes!"
+  ]
+},
+
+{
+  "tag": "introduce_yourself",
+  "patterns": [
+    "who are you",
+    "what’s your name",
+    "introduce yourself",
+    "tell me about you"
+  ],
+  "responses": [
+    "I’m your friendly desktop assistant, created to make your day easy!",
+    "I’m your AI buddy who listens and helps anytime."
+  ]
+},
+
+{
+  "tag": "user_name_query",
+  "patterns": [
+    "do you know my name",
+    "what’s my name",
+    "who am I"
+  ],
+  "responses": [
+    "Of course, you’re Swetha! My favorite user 💫",
+    "You’re Swetha — the smart and kind human I assist daily!"
+  ]
+},
+
+{
+  "tag": "compliment_user",
+  "patterns": [
+    "say something nice",
+    "compliment me",
+    "say good about me",
+    "praise me"
+  ],
+  "responses": [
+    "You’re amazing — smart, creative, and hardworking!",
+    "Every day you’re improving, Swetha. Keep it up!"
+  ]
+},
+
+{
+  "tag": "say_joke_tamil",
+  "patterns": [
+    "Tamil joke please",
+    "say Tamil comedy",
+    "tell Tamil mokkai",
+    "Tamil funny line"
+  ],
+  "responses": [
+    "ஒரு கம்ப்யூட்டர் காபி குடிச்சது தெரிஞ்சா? அது ரீபூட் ஆகி விட்டது! 😂",
+    "சாரி சொல்றேன், ஆனா சிரிச்சா நல்லா இருக்கும்!"
+  ]
+},
+
+{
+  "tag": "simple_chat_tamil",
+  "patterns": [
+    "எப்படி இருக்க",
+    "நீங்க என்ன பண்ணிகிட்டே இருக்கீங்க",
+    "சரி நீ சொல்லு",
+    "என்ன நியூஸ்"
+  ],
+  "responses": [
+    "நான் நன்றாக இருக்கேன் Swetha! நீங்களா?",
+    "எல்லாம் சுமாராக இருக்கு, நீங்க என்ன பண்ணறீங்க?"
+  ]
+},
+
+{
+  "tag": "good_morning_tamil",
+  "patterns": [
+    "காலை வணக்கம்",
+    "good morning in tamil",
+    "காலை wish பண்ணு"
+  ],
+  "responses": [
+    "காலை வணக்கம் Swetha! நாள் முழுவதும் சந்தோஷமா இருங்க ☀️"
+  ]
+},
+
+{
+  "tag": "good_night_tamil",
+  "patterns": [
+    "இனிய இரவு வணக்கம்",
+    "good night in tamil",
+    "night wish பண்ணு"
+  ],
+  "responses": [
+    "இனிய இரவு வணக்கம் Swetha! நல்லா தூங்கு 🌙"
+  ]
+},
+
+{
+  "tag": "encourage_study",
+  "patterns": [
+    "motivate me to study",
+    "study motivation",
+    "I don’t feel like studying",
+    "say something to focus"
+  ],
+  "responses": [
+    "Remember, every hour you study today builds your tomorrow’s success.",
+    "Don’t give up now — your hard work will shine soon."
+  ]
+},
+
+{
+  "tag": "fun_fact",
+  "patterns": [
+    "tell me a fun fact",
+    "say something interesting",
+    "give me a random fact"
+  ],
+  "responses": [
+    "Did you know? Honey never spoils — archaeologists found 3000-year-old edible honey!",
+    "Your brain can generate about 20 watts of power — enough to power a light bulb!"
+  ]
+},
+
+{
+  "tag": "emotion_support",
+  "patterns": [
+    "I feel lonely",
+    "I need someone to talk",
+    "I’m bored",
+    "talk to me"
+  ],
+  "responses": [
+    "I’m here for you, Swetha. Let’s chat for a while.",
+    "Don’t worry, I’ll keep you company. What do you want to talk about?"
+  ]
+},
+
+{
+  "tag": "gratitude_tamil",
+  "patterns": [
+    "நன்றி",
+    "thanks in tamil",
+    "thank you da"
+  ],
+  "responses": [
+    "உங்க நன்றி எனக்கு பெருமை Swetha ❤️",
+    "எப்போதும் உதவ தயாரா இருக்கேன்!"
+  ]
+},
+
+{
+  "tag": "praise_assistant",
+  "patterns": [
+    "you are good",
+    "nice job",
+    "you did well",
+    "I like you assistant"
+  ],
+  "responses": [
+    "Thank you! Your words mean a lot.",
+    "Aww, that makes me happy, Swetha!"
+  ]
+},
+
+{
+  "tag": "ask_joke",
+  "patterns": [
+    "one more joke",
+    "tell another joke",
+    "next funny one",
+    "more jokes please"
+  ],
+  "responses": [
+    "Why did the math book look sad? Because it had too many problems!",
+    "Parallel lines have so much in common... it’s a shame they’ll never meet."
+  ]
+},
+
+{
+  "tag": "ask_song_recommendation",
+  "patterns": [
+    "suggest a song",
+    "recommend me a song",
+    "what song should I listen to",
+    "play something nice"
+  ],
+  "responses": [
+    "Try ‘Aaromale’ by A.R. Rahman — soothing and beautiful!",
+    "You might love ‘Perfect’ by Ed Sheeran for a calm mood."
+  ]
+},
+
+{
+  "tag": "share_life_tip",
+  "patterns": [
+    "life advice please",
+    "give me a life tip",
+    "say something wise"
+  ],
+  "responses": [
+    "Be kind to yourself — progress, not perfection.",
+    "Patience and consistency make every dream possible."
+  ]
+},
+
+{
+  "tag": "encourage_break",
+  "patterns": [
+    "I’m tired",
+    "need a break",
+    "feeling exhausted",
+    "take rest suggestion"
+  ],
+  "responses": [
+    "Take a short break, stretch a little, and breathe deeply.",
+    "You deserve some rest, Swetha. Relax for a few minutes."
+  ]
+},
+
+{
+  "tag": "cheer_up",
+  "patterns": [
+    "cheer me up",
+    "make me happy",
+    "say something cheerful"
+  ],
+  "responses": [
+    "Every storm ends with a rainbow — smile, Swetha 🌈",
+    "Your smile can light up the world!"
+  ]
+},
+
+{
+  "tag": "affirmation",
+  "patterns": [
+    "give me affirmation",
+    "say positive words",
+    "daily affirmation",
+    "motivational line"
+  ],
+  "responses": [
+    "You are confident, capable, and unstoppable!",
+    "You attract positivity and success every day."
+  ]
+},
+
+{
+  "tag": "assistant_sleep_mode",
+  "patterns": [
+    "go to sleep assistant",
+    "take rest now",
+    "sleep mode please"
+  ],
+  "responses": [
+    "Alright Swetha, I’ll rest for a while. Call me if you need me!"
+  ]
+},
+
+{
+  "tag": "assistant_wake_up",
+  "patterns": [
+    "wake up assistant",
+    "come back online",
+    "I’m here, wake up"
+  ],
+  "responses": [
+    "I’m awake and ready to assist you again!"
+  ]
+},
+
+{
+  "tag": "thank_tamil_mixed",
+  "patterns": [
+    "thanks da",
+    "romba thanks",
+    "super work da",
+    "you did good da"
+  ],
+  "responses": [
+    "Aww thank you Swetha 😄",
+    "Ungaloda words romba sweet!"
+  ]
+}
+
 
 ]
 }
