@@ -1,0 +1,561 @@
+{
+  "intents": [
+    
+ {
+  "tag": "open_calculator",
+  "patterns": [
+    "open calculator", "start calculator", "launch calculator", "run calculator", 
+    "calculator please", "show calculator", "open calc", "turn on calculator",
+    "use calculator", "activate calculator", "calculator on", "get calculator",
+    "simple calculator", "basic calculator", "math help",
+  
+    "2 plus 2",
+    "3 plus 5",
+    "7 plus 10",
+    "12 plus 8",
+    "100 plus 200",
+    "5 minus 2",
+    "10 minus 4",
+    "20 minus 15",
+    "50 minus 25",
+    "100 minus 99",
+    "2 times 2",
+    "3 times 4",
+    "5 times 6",
+    "7 times 8",
+    "10 times 10",
+    "2 x 2",
+    "3 x 3",
+    "4 x 4",
+    "9 x 9",
+    "12 x 3",
+    "6 divided by 2",
+    "10 divided by 5",
+    "20 divided by 4",
+    "100 divided by 10",
+    "9 divided by 3",
+    "12 mod 5",
+    "10 mod 3",
+    "25 mod 4",
+    "100 mod 30",
+    "8 mod 2",
+    "2 power 3",
+    "3 power 2",
+    "4 power 4",
+    "5 power 3",
+    "6 power 2",
+    "2 + 2",
+    "3 + 5",
+    "6 + 9",
+    "10 + 20",
+    "30 + 40",
+    "5 - 2",
+    "10 - 6",
+    "15 - 5",
+    "50 - 10",
+    "100 - 60",
+    "4 * 2",
+    "3 * 3",
+    "6 * 7",
+    "10 * 5",
+    "9 * 9",
+    "8 / 2",
+    "16 / 4",
+    "18 / 6",
+    "100 / 5",
+    "25 / 5",
+    "9 % 4",
+    "20 % 6",
+    "50 % 7",
+    "7 ** 2",
+    "2 ** 5",
+    "10 ** 3",
+    "What is 2 plus 2",
+    "Calculate 45 minus 12",
+    "Add 15 and 30",
+    "Subtract 8 from 25",
+    "Multiply 9 by 7",
+    "What is 6 times 5",
+    "What is 50 divided by 10",
+    "Divide 100 by 25",
+    "What’s the result of 13 plus 6",
+    "What is 7 multiplied by 8",
+    "What is 14 minus 7",
+    "Calculate the sum of 22 and 11",
+    "What’s 60 minus 45",
+    "What is 33 add 17",
+    "Find 15 plus 3",
+    "Give me the result of 7 times 6",
+    "Do 9 minus 4",
+    "Work out 100 divided by 20",
+    "What is 2 plus 2 times 5",
+    "Evaluate 10 plus 2 times 3",
+    "What is 12 mod 5",
+    "What is the remainder of 17 divided by 3",
+    "How much is 5 + 6",
+    "How much is 9 x 4",
+    "Tell me what 45 minus 9 is",
+    "Do the calculation 18 divided by 6",
+    "Tell me the answer to 6 plus 7",
+    "What’s 11 times 11",
+    "Find the product of 8 and 5",
+    "Give me the sum of 23 and 19",
+    "How much is 99 minus 33",
+    "What’s the total of 25 and 25",
+    "Calculate 5 raised to 2",
+    "What is 4 to the power of 3",
+    "Raise 2 to the 5",
+    "Add up 60 and 40",
+    "Multiply 12 and 3",
+    "Subtract 50 from 90",
+    "What’s 20 over 4",
+    "What’s the quotient of 48 and 6",
+    "Compute 16 divided by 4",
+    "Compute the value of 7 + 8",
+    "How much is 6 multiplied by 3",
+    "What is 15 less 4",
+    "Do 100 plus 200",
+    "Add 88 and 12 together",
+    "Can you calculate 10 times 10",
+    "Work out 21 over 7"
+  ],
+  "responses": [
+    "Calculator coming right up!",
+    "Sure, launching the calculator.",
+    "Opening your calculator now.",
+    "Let me calculate that for you"
+  ]
+},
+{
+  "tag": "close_calculator",
+  "patterns": [
+    "Close calculator",
+    "Exit calculator",
+    "Quit calculator",
+    "Turn off calculator"
+  ],
+  "responses": [
+    "Closing calculator."
+  ]
+},
+   
+{
+  "tag": "make_call",
+  "patterns": [
+    "call swetha",
+    "call ranjani",
+    "make a call to ranjani",
+    "phone ranjani",
+    "can you call ranjani",
+    "make a call to swetha",
+    "call srikavi",
+    "make a call to srikavi",
+    "can you call swetha",
+    "can you call srikavi",
+    "i want to call srikavi",
+    "i want to call swetha",
+    "call someone",
+    "can you make a call",
+    "i want to make a call",
+    "please make a call",
+    "i need to make a call",
+    "call this person",
+    "connect me with someone",
+    "can you connect the call",
+    "place a call",
+    "start a phone call",
+    "can you call my contact",
+    "dial the number",
+    "i want to talk to someone"
+  ],
+  "responses": [
+    "Connecting your call now.",
+    "Calling {person}...",
+    "Dialing now..."
+  ]
+},
+
+    {
+      "tag": "open_chrome",
+      "patterns": [
+        "Open Chrome",
+    "Launch browser",
+    "Start Chrome",
+    "Open Google Chrome",
+        "search google",
+        "google search",
+        "look it up",
+        "find on google",
+        "I want to google something",
+        "search something",
+        "do a search",
+        "search online",
+        "google it",
+        "look up something",
+        "find information",
+        "search the web",
+        "search now",
+        "ask google",
+        "open google search",
+        "show google results",
+        "type in google",
+        "search for me",
+        "look up this",
+        "get info online",
+        "find this online",
+        "help me search",
+        "search topic",
+        "open google page",
+        "ask the web",
+        "start google search",
+        "show me search results",
+        "look online",
+        "search on web",
+        "find details"
+      ],
+      "responses": [
+        "What should I search or open in Chrome?",
+        "Let me search that for you.",
+        "Here\u2019s what I found online.",
+        "Searching Google for you."
+      ]
+    },
+    {
+  "tag": "open_search_site",
+  "patterns": [
+    "open wikipedia",
+    "open news about it",
+    "wikipedia page",
+    "go to wiki"
+  ],
+  "responses": ["Opening related site for your last search."]
+}
+,
+    {
+  "tag": "close_chrome",
+  "patterns": [
+    "close chrome",
+    "exit chrome",
+    "shutdown chrome",
+    "terminate chrome"
+  ],
+  "responses": [
+    "Closing Chrome."
+  ]
+},
+    {
+      "tag": "play_music",
+      "patterns": [
+        "play music",
+        "start music",
+        "music please",
+        "launch music",
+        "turn on music",
+        "play a song",
+        "start a song",
+        "I want to hear music",
+        "music time",
+        "music on",
+        "play my favorite song",
+        "play some tunes",
+        "start playlist",
+        "music start",
+        "play audio",
+        "launch audio player",
+        "music now",
+        "sing me a song",
+        "I want music",
+        "play sound",
+        "turn on audio",
+        "music window",
+        "start media player",
+        "open music player",
+        "play my track",
+        "tune time",
+        "turn on background music",
+        "play relaxing music",
+        "music mood",
+        "open music app"
+      ],
+      "responses": [
+        "Playing your favorite songs.",
+        "Starting music now!",
+        "Enjoy the music!"
+      ]
+    },{
+     "tag": "pause_music",
+  "patterns": [
+    "pause the music",
+    "pause song",
+    "hold the music",
+    "pause audio",
+    "wait the music",
+    "stop music for now"
+  ],
+  "responses": ["Music paused."]
+}
+,
+{
+  "tag": "resume_music",
+  "patterns": [
+    "resume the music",
+    "continue playing",
+    "resume song",
+    "unpause the music",
+    "play again",
+    "continue the song",
+    "start from pause",
+    "keep playing",
+    "go on with music",
+    "continue music",
+    "music play again"
+  ],
+  "responses": [" Resuming music."]
+}
+,   {
+  "tag": "stop_music",
+  "patterns": [
+    "stop the music",
+    "close the music player",
+    "turn off the music",
+    "exit music app",
+    "music stop pannunga"
+  ],
+  "responses": [
+    "Stopping the music now.",
+    "Music player closed.",
+    "Alright, I've turned off the music."
+  ]
+},
+{
+  "tag": "set_reminder",
+  "patterns": [
+    "Remind me to take medicine", "Set a reminder", "Remind me at 8 PM", "Reminder for walk",
+    "I need a medicine reminder", "Remind me to call my son", "Set a reminder for dinner",
+    "Remind me tomorrow", "Add a reminder", "Tell me to drink water", "Remind me for yoga",
+    "Set a time alarm", "I need a reminder for 6 PM", "Make a note to remind", "Add to my reminders",
+    "Alert me later", "Set a voice reminder", "Please set an alert", "Give me a notification",
+    "Set health reminder", "Remind me daily", "Reminder for evening medicine", "Set up notification",
+    "Tell me when it's time", "Help me remember", "Add alarm for tablets", "Add pill reminder",
+    "Set reminder for doctor visit", "Remind me to check sugar"
+  ],
+  "responses": [
+    "Reminder set!"
+  ]
+},
+{
+  "tag": "open_youtube",
+  "patterns": [
+    "Open YouTube", "Launch YouTube", "Go to YouTube", "Play videos on YouTube", "Start YouTube",
+    "Open YouTube and play music", "Play devotional songs on YouTube", "Play news channels",
+    "Watch Tamil news", "Play Sun News", "Open NDTV news", "Play senior fitness videos",
+    "Search for yoga videos", "Watch bhajans", "Open Subhalekha Sudhakar videos", "Play travel vlogs",
+    "Open cooking channels", "Watch healthy food videos", "Pause the video", "Resume YouTube video",
+    "Continue the video", "Next video", "Skip video", "Rewind the video", "Start from beginning",
+    "Increase YouTube volume", "Mute YouTube", "Search for relaxing music", "Play old Tamil songs",
+    "Search for devotional speech", "Open my favorite channel", "Play family videos"
+  ],
+  "responses": [
+    "Opening YouTube now.", "Launching YouTube for you.", "Opening YouTube, enjoy!"
+  ]
+},
+{
+  "tag": "close_youtube",
+  "patterns": [
+    "close YouTube",
+    "exit YouTube",
+    "stop the YouTube video",
+    "turn off YouTube",
+    "close the YouTube tab"
+  ],
+  "responses": [
+    "Closing YouTube now.",
+    "YouTube tab closed.",
+    "Alright, I've closed YouTube for you."
+  ]
+},
+{
+  "tag": "medication_schedule",
+  "patterns": [
+    "When should I take my medicine?", "Remind me to take my medicine", "Medicine time?",
+    "Tell me my medication schedule", "What medicines do I need today?", "Is it time for my tablet?",
+    "Should I take my night medicine?", "Medicine reminder please", "Set tablet reminder",
+    "Time to take pill?", "Alert me for meds", "Medicine chart please", "Notify me about medicine",
+    "Remind me at 9 for medicine", "Time to take heart medicine?", "Remind me about calcium",
+    "Do I have to take medicine now?", "Schedule for tablets", "Show me today's medicine plan"
+  ],
+  "responses": [
+    "Sure, I’ll help you with your medicine timings."
+  ]
+},
+{
+  "tag": "emergency_help",
+  "patterns": [
+    "I need help", "Call emergency", "Emergency alert", "Help me now", "I fell down",
+    "Something is wrong", "Quick, get help", "Contact hospital", "Call ambulance",
+    "I feel chest pain", "I'm not feeling well", "Send help", "Can you call someone?",
+    "It's an emergency", "I can't breathe", "My heart hurts", "Alert my family",
+    "Help me immediately", "Can you alert my son?", "Contact daughter", "Call doctor"
+  ],
+  "responses": [
+    "I'm sending an emergency alert. Stay calm."
+  ]
+},
+{
+  "tag": "daily_motivation",
+  "patterns": [
+    "Give me motivation", "Tell something positive", "I need encouragement",
+    "Motivate me", "Say something nice", "Inspire me", "Make me feel better",
+    "Daily motivation", "Say positive quote", "Good morning message",
+    "Lift my mood", "Say something uplifting", "Encouraging words please"
+  ],
+  "responses": [
+    "You are strong, wise, and loved. Keep going!"
+  ]
+}
+,
+{
+  "tag": "call_family",
+  "patterns": [
+    "Call my son", "Call my daughter", "I want to talk to my grandson", "Call Ravi",
+    "Connect me to family", "Call home", "Can you dial my wife?", "Call Sita",
+    "Call my nephew", "Start a call with Anu", "Video call my daughter", "Voice call family",
+    "Make a call to relatives", "Call my contacts"
+  ],
+  "responses": [
+    "Sure, calling your family now."
+  ]
+},
+{
+      "tag": "tell_time",
+      "patterns": ["what time is it", "tell me the time", "current time","what's the time", "tell me the time", "current time", "what time is it", 
+    "time now", "can you tell time", "do you know the time", "clock", 
+    "what is the time", "please tell me the time"],
+      "responses": ["Let me check the time."]
+    },
+    {
+      "tag": "tell_date",
+      "patterns": ["what date is today", "tell me the date", "today's date"],
+      "responses": ["Let me check the date."]
+    },
+    {
+  "tag": "open_photos",
+  "patterns": [
+    "open photos",
+    "show my pictures",
+    "view photos",
+    "open gallery",
+    "launch photos"
+  ],
+  "responses": [
+    "Opening your photo gallery."
+  ] 
+},
+ {
+  "tag": "close_photos",
+  "patterns": [
+    "close photos",
+    "exit photos",
+    "close my pictures",
+    "close gallery"
+  ],
+  "responses": [
+    "closing your photo gallery."
+  ]
+},
+{
+  "tag": "open_photo_by_name",
+  "patterns": [
+    "open photo img",
+    "open the photo img",
+    "show the photo named img",
+    "view photo hd",
+    "please open photo hd",
+    "display the photo called hd"
+  ],
+  "responses": ["Opening the photo now."]
+}
+, 
+{
+  "tag": "favorite_photo",
+  "patterns": [
+    "add to favorites",
+    "mark as favorite",
+    "add photo 87 to favorites",
+    "add this photo to my favorite folder",
+    "save 87 in favorites",
+    "put this image in favorite",
+    "favorite photo 87",
+    "make this picture a favorite",
+    "add image 87 to favorites",
+    "favorite this one"
+  ],
+  "responses": ["Added to favorites."]
+},
+{
+  "tag": "delete_photo",
+  "patterns": [
+    "delete photo",
+    "remove photo",
+    "delete this picture",
+    "remove this image",
+    "delete image",
+    "delete photo 87",
+    "remove photo 87",
+    "erase this photo",
+    "delete current photo",
+    "delete the opened photo"
+  ],
+  "responses": [
+    "Photo deleted.",
+    "Removed the selected photo.",
+    "Image has been deleted."
+  ]
+}
+,
+{
+  "tag": "daily_quote",
+  "patterns": [
+    "tell me a quote",
+    "give me a quote",
+    "say something inspirational",
+    "daily motivation",
+    "I need inspiration",
+    "motivate me",
+    "say something nice",
+    "quote of the day",
+    "inspire me",
+    "motivation please"
+  ],
+  "responses": [
+    "You are never too old to set another goal or to dream a new dream.  C.S. Lewis",
+    "With the new day comes new strength and new thoughts.  Eleanor Roosevelt",
+    "Every day is a new beginning. Take a deep breath, smile, and start again.",
+    "Do not let what you cannot do interfere with what you can do.  John Wooden",
+    "Believe you can and you're halfway there.  Theodore Roosevelt",
+    "Keep smiling, because life is a beautiful thing and there's so much to smile about.", 
+    "You are never too old to set another goal or to dream a new dream.", 
+    "The best way to get started is to quit talking and begin doing.",
+    "Do something today that your future self will thank you for.",
+    "Happiness is not something ready made. It comes from your own actions.", 
+    "Every day may not be good, but there's something good in every day."
+  ]
+},
+{
+  "tag": "suggest_exercise",
+  "patterns": [
+    "start_exercise",
+    "begin_exercise",
+    "give me exercise",
+    "workout",
+    "suggest exercise routine",
+    "exercise for me"
+  ],
+  "responses": [
+    "Sure! Here's a workout for you.",
+    "Let's get moving! Here's a routine."
+  ]
+}
+
+]
+}
